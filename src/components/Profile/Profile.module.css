@@ -1,0 +1,76 @@
+
+body{
+    background-color: rgb(241, 241, 241);
+}
+ul{
+list-style: none;
+}
+
+.profile{
+
+display: flex;
+flex-direction: column;
+margin: auto;
+width: 400px;
+height: 450px;
+background-color: white;
+padding: 10px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-top: 25px;
+}
+.avatar{
+    width: 100px;
+    border-radius: 50%;
+
+}
+.name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 600;
+font-size: 30px;
+}
+.tag{
+    color: gray;
+    font-size: 20px;
+    margin: 0 0;
+}
+.location{
+     color: gray;
+     font-size: 20px;
+}
+.stats{
+    display: flex;
+justify-content: space-between; 
+padding: 0;
+background-color: azure;
+border: 1px solid black;
+
+
+}
+.stats li{
+    display: grid;
+    width: 100px;
+    height: 100px;
+
+}
+.label{
+    font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+color: gray;
+    display: flex;
+    justify-content: space-around;
+        margin: 10px 10px;
+}
+.quantity{
+font-weight: bold;
+font-size: 25px;
+        display: flex;
+    justify-content: space-around;
+        margin: 10px 10px;
+}
+
