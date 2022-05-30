@@ -1,0 +1,26 @@
+.transaction-history {
+  width: 640px;
+  margin: 30px auto 30px auto;
+  border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 30px;
+  font-weight: 700;
+  color: black;
+  padding: 10px 15px;
+  background-color: azure;
+  text-align: left;
+}
+td {
+  color: grey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  border-top: 1px solid black;
+  padding: 10px 15px;
+}
+tr:nth-child(2n) {
+  background: azure;
+}

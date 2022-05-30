@@ -1,6 +1,46 @@
-.statistics{}
-.title{}
-.statlist{}
-.item{}
-.label{}
-.percentage{}
+.statistics{
+
+    display: flex;
+    flex-direction: column;
+width: 300px;
+height: 125px;
+padding: 20px;
+margin: auto auto;
+margin-top: 20px;
+background-color: white;
+border: 1px solid;
+
+}
+.title{
+    margin: auto;
+        font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 35px;
+color: gray;
+}
+.statlist{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+background-color: azure;
+padding: 15px 0px;
+border: 1px solid;
+}
+.item{
+display: flex;
+flex-direction: column;
+width: 60px;
+}
+.label{
+        font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+color: gray;
+margin: 5px auto ;
+}
+.percentage{
+    font-weight: bold;
+    margin-top: 5px;
+margin: auto;
+}
